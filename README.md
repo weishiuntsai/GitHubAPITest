@@ -35,4 +35,4 @@ The tests were implemented using maven and JUnit.  Follow the following steps to
 4. `mvn test`
 
 ## Test layout
-This test contains a test file **myapp/src/test/java/io/my/app/AppTest.java** and a pom.xml file **myapp/pom.xml**.  There is also a mock file  **jenkinsfile** that describes steps in the test stage for this test to be automatically downloaded and triggered by Jenkins. 
+This test contains a test file **myapp/src/test/java/io/my/app/AppTest.java** and a pom.xml file **myapp/pom.xml**.  There is also a mock file  **Jenkinsfile**, which defines steps in the test stage for this test to be automatically downloaded and run by Jenkins at its test stage. 

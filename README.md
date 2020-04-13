@@ -4,7 +4,7 @@ This set of tests is designed to test some GitHub APIs from https://api.github.c
 ## Test Scenarios
 ```
 test_request():
-  Test HTTP REQUEST (with GET) on https://api.github.com to verify the list of APIs and endpoints.
+  Test RESTAssured request (with GET) on https://api.github.com to verify the list of APIs and endpoints.
 ```
 ```
 test_get():

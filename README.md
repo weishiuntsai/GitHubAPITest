@@ -8,19 +8,22 @@ test_request():
 ```
 ```
 test_get():
-  Test HTTP GET on https://api.github.com/users/{user} by accessing the repo weishiuntsai and verify the information.
+  Test HTTP GET on https://api.github.com/users/{user} by accessing the repo weishiuntsai and verifying the information.
 ```
 ```
 test_head():
-  Test HTTP HEAD on https://api.github.com/feeds (API exists) and https://api.github.com/doesntexist (API does not exist).  Verify the status code.
+  Test HTTP HEAD on https://api.github.com/feeds (API exists) and 
+  https://api.github.com/doesntexist (API does not exist).  Verify the status code.
 ```
 ```
 test_put():
-  Test HTTP PUT on https://api.github.com/repos/:owner/:repo/contents/:path by updating a file /repos/weishiuntsai/test_repo/contents/test.txt with new contents.
+  Test HTTP PUT on https://api.github.com/repos/:owner/:repo/contents/:path by updating a file
+  /repos/weishiuntsai/test_repo/contents/test.txt with new contents.
 ```
 ```
 test_delete():
-  Test HTTP DELETE on https://api.github.com/repos/:owner/:repo/contents/:path by adding a new file /repos/weishiuntsai/test_repo/contents/new_test.txt first and then deleting it.
+  Test HTTP DELETE on https://api.github.com/repos/:owner/:repo/contents/:path by adding a new file
+  /repos/weishiuntsai/test_repo/contents/new_test.txt first and then deleting it.
 ```
 
 ## How to run the tests

@@ -29,7 +29,7 @@ public class AppTest
     }
     
     /**
-     * Test HTTP REQUEST (with GET) on 
+     * Test RESTAssured request (with GET) on 
      * https://api.github.com.
      */
     @Test

@@ -19,7 +19,7 @@ test_head():
 ```
 test_put():
   Test HTTP PUT on https://api.github.com/repos/:owner/:repo/contents/:path by updating a file
-  /repos/weishiuntsai/test_repo/contents/test.txt with new contents.
+  /repos/weishiuntsai/test_repo/contents/test.txt with new content.
 ```
 ```
 test_delete():

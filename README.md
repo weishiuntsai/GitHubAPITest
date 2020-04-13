@@ -28,12 +28,11 @@ test_delete():
 ```
 
 ## How to run the tests
-The tests were implemented using maven and JUnit.  Follow the following steps to set up the environment on a Linux machine.
+The tests were implemented using maven and JUnit.  Follow the following steps to set up the environment on a Linux machine. (NOTE: test_put() and test_delete() require providing password in userPass variable in myapp/src/test/java/io/my/app/AppTest.java.  It currently would fail without the password.)
 1. Download the GitHub repository https://github.com/weishiuntsai/GitHubAPITest/ as a zip file.
 2. `unzip GitHubAPITest-master.zip`
 3. `cd GitHubAPITest-master/myapp`
 4. `mvn test`
-NOTE: test_put() and test_delete() require providing password in userPass variable in myapp/src/test/java/io/my/app/AppTest.java.  It currently would fail without the password.
 
 ## Test layout
 This test contains a test file **myapp/src/test/java/io/my/app/AppTest.java** and a pom.xml file **myapp/pom.xml**.  There is also a mock file  **jenkinsfile** that describes steps in the test stage for this test to be automatically downloaded and triggered by Jenkins. 

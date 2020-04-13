@@ -8,7 +8,8 @@ test_request():
 ```
 ```
 test_get():
-  Test HTTP GET on https://api.github.com/users/{user} by accessing the repo weishiuntsai and verifying the information.
+  Test HTTP GET on https://api.github.com/users/{user} by accessing the repo weishiuntsai and verifying 
+  the information.
 ```
 ```
 test_head():

@@ -1,5 +1,6 @@
 # GitHub API Test
-This set of tests is designed to test some GitHub APIs from https://api.github.com.  Tests were implemented using REST Assured, with Maven and JUnit.
+This set of tests is designed to test some 
+GitHub APIs from https://api.github.com.  Tests were implemented using REST Assured, with Maven and JUnit.
 
 ## Test Scenarios
 ```
